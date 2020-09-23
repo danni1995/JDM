@@ -1,5 +1,6 @@
 @import "./topsection";
 @import "./footer";
+@import "./mixins";
 $primary: #08c3a2;
 $fontfamily: Raleway;
 
@@ -37,8 +38,7 @@ body {
   left: 150px;
 }
 .likesdwn {
-  display: flex;
-  position: relative;
+  @include display;
   left: 200px;
   height: 10px;
   justify-content: center;
@@ -58,8 +58,7 @@ body {
   padding-right: 5px;
 }
 .forkright {
-  display: flex;
-  position: relative;
+  @include display;
   right: 150px;
   bottom: 110px;
   justify-content: end;
@@ -69,8 +68,7 @@ body {
   cursor: pointer;
 }
 .forkleft {
-  display: flex;
-  position: relative;
+  @include display;
   bottom: 110px;
   left: 150px;
   justify-content: start;
