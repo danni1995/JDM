@@ -1,3 +1,4 @@
+@import "./mixins";
 $primary: #08c3a2;
 $fontfamily: Raleway;
 
@@ -7,8 +8,7 @@ $fontfamily: Raleway;
   align-items: flex-end;
 
   .twitter {
-    display: flex;
-    position: relative;
+    @include display;
     top: 45px;
     right: 50px;
     justify-content: flex-end;
@@ -16,8 +16,7 @@ $fontfamily: Raleway;
     cursor: pointer;
   }
   .insta {
-    display: flex;
-    position: relative;
+    @include display;
     top: 25px;
     right: 50px;
     justify-content: flex-end;
@@ -25,8 +24,7 @@ $fontfamily: Raleway;
     cursor: pointer;
   }
   .fb {
-    display: flex;
-    position: relative;
+    @include display;
     right: 50px;
     top: 5px;
     justify-content: flex-end;
@@ -39,8 +37,7 @@ section {
   text-align: center;
   width: 100%;
   .head1 {
-    font-family: $fontfamily;
-    font-weight: 800;
+    @include footerstyle1;
   }
   .head3 {
     font-family: $fontfamily;
