@@ -1,0 +1,11 @@
+@mixin footerstyle1 {
+  font-family: $fontfamily;
+}
+
+@mixin display {
+  display: flex;
+  position: relative;
+}
+.fmdls {
+  border-top-left-radius: ;
+}
