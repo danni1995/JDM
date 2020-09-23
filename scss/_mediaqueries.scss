@@ -1,0 +1,29 @@
+/*Phone*/
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  hr {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+}
+/*Tablet*/
+@media screen and (min-width: 760px) {
+  hr {
+    width: 100%;
+  }
+  .cars {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+    align-items: center;
+  }
+  .sociallist {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*Desktop*/
+@media screen and (min-width: 1224px) and (max-width: 320px) {
+}
+@media screen and (min-width: 1224px) and (max-width: 320px) {
+}

@@ -1,0 +1,80 @@
+@import "./topsection";
+@import "./footer";
+$primary: #08c3a2;
+$fontfamily: Raleway;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(10deg, $primary 60%, white 60%);
+}
+
+.cars {
+  display: flex;
+  justify-content: center;
+}
+.carphoto {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.posttxt {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 9px;
+  opacity: 0.8;
+  font-family: sans-serif;
+  left: 150px;
+}
+.likesdwn {
+  display: flex;
+  position: relative;
+  left: 200px;
+  height: 10px;
+  justify-content: center;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+.dislikes {
+  font-size: 10px;
+}
+.likesup {
+  display: flex;
+  justify-content: center;
+}
+.likes {
+  position: relative;
+  font-size: 10px;
+  padding-right: 5px;
+}
+.forkright {
+  display: flex;
+  position: relative;
+  right: 150px;
+  bottom: 110px;
+  justify-content: end;
+  float: right;
+  margin: 0.5;
+  padding-right: 1.5rem;
+  cursor: pointer;
+}
+.forkleft {
+  display: flex;
+  position: relative;
+  bottom: 110px;
+  left: 150px;
+  justify-content: start;
+  float: left;
+  margin-left: 1rem;
+  cursor: pointer;
+}

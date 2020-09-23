@@ -1,0 +1,224 @@
+.tophead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tophead .logo {
+  padding: 1rem 0;
+}
+
+.headline {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: Raleway;
+  font-weight: 400;
+  padding: 0.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  background-color: #bababa;
+}
+
+main .welcome {
+  text-align: center;
+  font-family: Raleway;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+.sociallist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.sociallist .twitter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 45px;
+  right: 50px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+
+.sociallist .insta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 25px;
+  right: 50px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+
+.sociallist .fb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  right: 50px;
+  top: 5px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+section {
+  text-align: center;
+  width: 100%;
+}
+
+section .head1 {
+  font-family: Raleway;
+  font-weight: 800;
+}
+
+section .head3 {
+  font-family: Raleway;
+  font-weight: 300;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(10deg, #08c3a2 60%, white 60%);
+}
+
+.cars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carphoto {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.posttxt {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 9px;
+  opacity: 0.8;
+  font-family: sans-serif;
+  left: 150px;
+}
+
+.likesdwn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 200px;
+  height: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.dislikes {
+  font-size: 10px;
+}
+
+.likesup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.likes {
+  position: relative;
+  font-size: 10px;
+  padding-right: 5px;
+}
+
+.forkright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  right: 150px;
+  bottom: 110px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  float: right;
+  margin: 0.5;
+  padding-right: 1.5rem;
+  cursor: pointer;
+}
+
+.forkleft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  bottom: 110px;
+  left: 150px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  float: left;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

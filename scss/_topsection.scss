@@ -1,0 +1,44 @@
+$primary: #08c3a2;
+$fontfamily: Raleway;
+
+.tophead {
+  display: flex;
+  justify-content: center;
+
+  .logo {
+    padding: 1rem 0;
+  }
+}
+
+.headline {
+  text-align: center;
+  font-family: $fontfamily;
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: $fontfamily;
+  font-weight: 400;
+  padding: 0.5rem;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    background-color: #bababa;
+  }
+}
+
+main {
+  .welcome {
+    text-align: center;
+    font-family: $fontfamily;
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+}
