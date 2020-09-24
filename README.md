@@ -15,8 +15,8 @@ I used variables (not many) and they really help with saving time.
 What you want to start with is begin with the dollar sign ($) before the variable.
 Then what you do is that you give the variable a color in this example $primarycolor ("black");
 here you can see the variable name is "$primarycolor", if I want
-to change the color of number of things in the code i only have to write this in 
-the code in the place i want to change.
+to change the color of number of things in the code i only have to change the color in the 
+variable, and voila! Every element which has the variable has been changed!
 
 2. @import
 
